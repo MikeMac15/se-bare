@@ -1,0 +1,28 @@
+.grades {
+    background: #EAE7DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.gradesTitle {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+}
+
+.gradesAllCards {
+display: flex;
+margin: 3rem 0;
+}
+
+.gradeCard img{
+    
+    margin: 1rem 1rem;
+    transition: box-shadow 0.8s ease, transform 0.3s ease-in-out;
+}
+.gradeCard img:hover{
+    transform: translateY(-3rem);
+    box-shadow: 10px 10px 20px 10px rgba(203, 203, 203, 0.816);
+}

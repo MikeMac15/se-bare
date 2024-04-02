@@ -1,0 +1,68 @@
+.introDiv {
+    display:flex;
+    background: black;
+}
+.leftdiv {background: #18324a; width: 50vw;}
+
+.introBackground {
+    background-image:
+        linear-gradient(to bottom, rgba(196, 163, 53,0.3), transparent),
+        url('/public/grad.jpeg');
+    
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+    display: flex;
+    flex-direction: row;
+}
+
+.introText {
+background: linear-gradient(to right,#18324a, transparent);
+width:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.introP {
+transform: translate(-500px);
+font-size: 2rem;
+color: whitesmoke;
+text-align: center;
+width: 60%;
+margin-bottom: 2rem;
+margin-left: 20px;
+
+
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .introP {
+        font-size: 2rem;
+        transform: translate(-200px);
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .introP {
+        width:50%;
+    }
+}
+@media screen and (max-width: 800px){
+    .introP{
+        font-size:1.75rem;
+    transform: translate(-150px);}
+}
+@media screen and (max-width: 600px){
+    .introP{
+    font-size: 1.5rem;
+    transform: translate(0px);
+    }
+}

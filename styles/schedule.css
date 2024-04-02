@@ -1,0 +1,32 @@
+.full-pricing-div {
+    height: 15rem;
+    background-color: #e9c680;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.title1 {
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(20, 20, 20);
+}
+
+.title2 {
+    margin: 0;
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+    color: rgb(50, 50, 50);
+}
+
+.calendly-button {
+    background: #6488ea;
+    border: none;
+    border-radius: 5rem;
+    padding: .75rem;
+    color: white;
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+}

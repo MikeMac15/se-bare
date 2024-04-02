@@ -1,0 +1,53 @@
+.why {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+
+padding: 3rem 0;
+
+background: white;
+}
+
+.whyTitle {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+text-shadow: 2px 2px 1px antiquewhite;
+padding-bottom: 2rem;
+}
+.whyTitle h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.whyTitle p {
+    font-size:1.25rem;
+    text-align: center;
+    width: 85%;
+    margin-top:.5rem;
+}
+
+.whyMidContainer {
+display:flex;
+justify-content: center;
+align-items:center;
+}
+
+.whyList {
+list-style: decimal;
+padding:0;
+width:50%;
+margin-left: 2rem;
+padding-right: 2rem;
+}
+
+.whyList li {
+font-size:1.5rem;
+text-shadow: 2px 2px 1px antiquewhite;
+}
+
+.whyList p {
+    margin-left:2rem;
+}
