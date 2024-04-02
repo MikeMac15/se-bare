@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     'Many high school students have found themselves shy of credits for graduation by their Senior year. Soaring Eagle Educational Center will team up with accredited organizations to help students make up credits at their own pace.',
     "Our comprehensive curriculum, personalized instruction, and supportive learning environment empower students to master the skills needed to pass the GED exam with confidence. Whether you're aiming to enhance your employment prospects or pursue further education, our dedicated instructors are here to guide you every step of the way. Join us and take the first step towards a brighter future with our GED program."]
 
-    const imgSrcList = ['/public/servicePictures/newTutor.png', '/public/servicePictures/testing.svg', '/public/servicePictures/credit.svg', '/public/servicePictures/workshops.svg', '/public/servicePictures/ged.svg', '/public/servicePictures/gedNew.svg'];
+    const imgSrcList = ['./public/servicePictures/newTutor.png', './public/servicePictures/testing.svg', './public/servicePictures/credit.svg', './public/servicePictures/workshops.svg', './public/servicePictures/ged.svg', './public/servicePictures/gedNew.svg'];
 
     const servDiv = document.getElementById('servDiv');
 
