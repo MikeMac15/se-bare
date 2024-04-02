@@ -4,7 +4,9 @@
     align-items: center;
     justify-content: center;
     font-size: 1.25rem;
-    background-image: url('./public/team/newLines.svg');
+    /* background: blue; */
+
+    background-image: url('../public/newLines.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
