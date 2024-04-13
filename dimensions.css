@@ -1,0 +1,55 @@
+@media screen and (max-width: 1300px) {
+    .introDiv .leftdiv {
+        display: none;
+        
+    }
+    .introText {
+        background: linear-gradient(to right,#18324a, transparent);
+    }
+    .gradesAllCards .gradeCard img {
+        height: 350px;
+        width: 300px;
+    }
+    .serviceInfo .description {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    .introText {
+        background: linear-gradient(to right,#18324a, transparent);
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .introP {
+        transform: translate(-500px);
+        font-size: 2rem;
+        color: whitesmoke;
+        text-align: center;
+        width: 60%;
+        margin-bottom: 2rem;
+        margin-left: 20px;
+        
+        
+        }
+}
+
+@media screen and (max-width: 1000px) {
+    .gradesAllCards .gradeCard img {
+        height: 250px;
+        width: 200px;
+    }
+    .whyMidContainer img {
+        height: 300px;
+        width: 500px;
+    }
+    .service img {
+        height: 250px;
+        width: 250px;
+    }
+}
