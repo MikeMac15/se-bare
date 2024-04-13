@@ -21,7 +21,7 @@
 }
 
 .introText {
-background: linear-gradient(to right,#18324a, transparent);
+/* background: linear-gradient(to right,#18324a, transparent); */
 width:100%;
 display: flex;
 flex-direction: column;
@@ -30,7 +30,7 @@ align-items: center;
 }
 
 .introP {
-transform: translate(-500px);
+/* transform: translate(-500px); */
 font-size: 2rem;
 color: whitesmoke;
 text-align: center;
@@ -43,7 +43,7 @@ margin-left: 20px;
 
 
 
-@media screen and (max-width: 1100px){
+/* @media screen and (max-width: 1100px){
     .introP {
         font-size: 2rem;
         transform: translate(-200px);
@@ -65,4 +65,4 @@ margin-left: 20px;
     font-size: 1.5rem;
     transform: translate(0px);
     }
-}
+} */
