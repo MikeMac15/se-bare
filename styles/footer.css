@@ -1,0 +1,93 @@
+/* Styles for FooterDiv */
+.FooterDiv {
+    background: #e8a623;
+    display: flex;
+    padding: 4rem 0;
+    margin-top: 50px;
+}
+
+/* Styles for Fsec1 */
+.Fsec1 {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for F2n3 */
+.F2n3 {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Styles for Fsec2 */
+.Fsec2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for Fsec3 */
+.Fsec3 {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+/* Text settings */
+.Footerh3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.Footerh4 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.Footerh5 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* Left footer */
+.FLogo {
+    height: 100px;
+    width: 150px;
+}
+
+.SEtitle {
+    color: white;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+/* Mid footer */
+.F_Links {
+    padding-bottom: .1rem;
+}
+
+/* Media Queries */
+@media (max-width: 340px) {
+    .Footerh4 {
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .F2n3 {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3rem;
+    }
+
+    .Fsec2 {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .Fsec3 {
+        padding: 0;
+    }
+}
