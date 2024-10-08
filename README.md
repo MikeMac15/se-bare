@@ -1,4 +1,11 @@
 # Soaring Eagle Ed Center Base Html Template
+This is a bare HTML version of the full website.
+
+View the Pages website here -> https://mikemac15.github.io/se-bare/
+
+View the full websites repo here -> https://github.com/MikeMac15/Soaring_Eagle
+
+
 # For Demo Purposes only
 
 # Soaring Eagle Educational Center Website Demo
